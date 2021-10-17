@@ -1,0 +1,83 @@
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+
+    &_face {
+        background-color: #000;
+        background-position: center bottom;
+        background-image: url("../media/section/face.jpg");
+    }
+
+    &_screen2 {
+        position: relative;
+        background-color: #000;
+        background-position: center top;
+        background-image: url("../media/section/screen2.jpg");
+    }
+
+    &_screen3 {
+        padding-top: 120px;
+        padding-bottom: 200px;
+        background-color: #000;
+        background-position: center bottom;
+        background-image: url("../media/section/screen3.jpg");
+    }
+
+    &_screen4 {
+        padding-top: 40px;
+        background-color: #000;
+        background-position: center top;
+        background-image: url("../media/section/screen4.jpg");
+    }
+
+    &_commits {
+        background-color: #000;
+    }
+}
+
+@media (max-width: 1280px) {
+    .section {
+        &_face {
+            background-position: center 200px;
+        }
+
+        &_screen2 {
+            padding-bottom: 60px;
+            background-image: none;
+        }
+
+        &_screen3 {
+            padding-bottom: 550px;
+            padding-top: 30px;
+            background-image: url("../media/section/screen3-1280.jpg");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        &_screen3 {
+            background-image: none;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        &_face {
+            background-position: center 30px;
+            background-image: url("../media/section/face-480.jpg");
+        }
+
+        &_screen4 {
+            padding-top: 0;
+            background-image: none;
+        }
+    }
+}

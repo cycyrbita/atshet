@@ -1,0 +1,50 @@
+
+/* stylelint-disable */
+
+.btn {
+    padding: 19px 15px;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: #d1c350;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    opacity: .98;
+    border-radius: 5px;
+    box-shadow: 13px 13px 15px rgba(0, 0, 0, 0.12);
+    font-size: 15px;
+    color: #000;
+    animation: btn 4s infinite;
+
+    &:hover {
+        opacity: 1;
+        text-decoration: none;
+        transform: scale(.98);
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@keyframes btn {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
