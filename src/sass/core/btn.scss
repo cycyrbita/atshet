@@ -2,20 +2,16 @@
 /* stylelint-disable */
 
 .btn {
-    padding: 19px 15px;
     display: inline-block;
-    font-weight: 800;
-    text-transform: uppercase;
-    background: #d1c350;
+    padding: 20px 70px;
+    margin-top: 70px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
-    border: 0;
-    text-decoration: none;
-    opacity: .98;
-    border-radius: 5px;
-    box-shadow: 13px 13px 15px rgba(0, 0, 0, 0.12);
-    font-size: 15px;
-    color: #000;
-    animation: btn 4s infinite;
+    border-radius: 30px;
+    background: rgb(252,143,0);
+    background: linear-gradient(180deg, rgba(252,143,0,1) 0%, rgba(204,55,2,1) 100%);
 
     &:hover {
         opacity: 1;
@@ -26,8 +22,10 @@
 
 @media (max-width: 480px) {
     .btn {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        margin-top: 30px;
+        font-size: 18px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
 

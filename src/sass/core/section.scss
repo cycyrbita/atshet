@@ -34,6 +34,14 @@
         background-position: center top;
         background-image: url("../media/section/block4.jpg");
     }
+
+    &_block5 {
+        padding-top: 240px;
+        padding-bottom: 240px;
+        background-color: #000;
+        background-position: center top;
+        background-image: url("../media/section/block5.jpg");
+    }
 }
 
 @media (max-width: 1280px) {
@@ -46,6 +54,13 @@
             padding-top: 60px;
             padding-bottom: 60px;
             background-position: center bottom;
+        }
+
+        &_block5 {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-position: center bottom;
+            background-image: url("../media/section/block5-1280.jpg");
         }
     }
 }
@@ -65,6 +80,11 @@
             background-position: center bottom;
             background-image: url("../media/section/block2-768.jpg");
         }
+
+        &_block5 {
+            background-position: center calc(100% - 110px);
+            background-image: url("../media/section/block5-768.jpg");
+        }
     }
 }
 
@@ -75,6 +95,11 @@
 
         &_block2 {
             padding-bottom: 390px;
+        }
+
+        &_block5 {
+            padding-bottom: 300px;
+            background-position: center bottom;
         }
     }
 }
