@@ -11,6 +11,14 @@
         background-position: center top;
         background-image: url("../media/section/face.jpg");
     }
+
+    &_block2 {
+        padding-top: 220px;
+        padding-bottom: 220px;
+        background-color: #000;
+        background-position: center top;
+        background-image: url("../media/section/block2.jpg");
+    }
 }
 
 @media (max-width: 1280px) {
@@ -26,11 +34,23 @@
         &_face {
             background-image: url("../media/section/face-768.jpg");
         }
+
+        &_block2 {
+            padding-bottom: 390px;
+            background-color: #000;
+            background-position: center bottom;
+            background-image: url("../media/section/block2-768.jpg");
+        }
     }
 }
 
 @media (max-width: 480px) {
     .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
 
+        &_block2 {
+            padding-bottom: 390px;
+        }
     }
 }
