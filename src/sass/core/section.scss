@@ -27,6 +27,13 @@
         background-position: center top;
         background-image: url("../media/section/block3.jpg");
     }
+
+    &_block4 {
+        padding-top: 125px;
+        background-color: #000;
+        background-position: center top;
+        background-image: url("../media/section/block4.jpg");
+    }
 }
 
 @media (max-width: 1280px) {
