@@ -78,6 +78,25 @@
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 30px;
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.03);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media (max-width: 1280px) {

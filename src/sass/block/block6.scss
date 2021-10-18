@@ -46,8 +46,17 @@
 
 .block6__item-body {
     z-index: 2;
-    padding: 200px 20px 40px 20px;
     transform: rotateY(0deg);
+    background-image: url("../media/block6/cards.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.block6__item-back {
+    transform: rotateY(-180deg);
+    padding: 200px 20px 40px 20px;
     background-image: url("../media/block6/icon.png");
     background-repeat: no-repeat;
     background-position: center top;
@@ -57,20 +66,17 @@
     color: #fe8f00;
 }
 
-.block6__item-back {
-    transform: rotateY(-180deg);
-    background-image: url("../media/block6/cards.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-}
-
 .block6__wrap {
     perspective: 1200;
     width: calc(25% - 15px);
 
     &:hover {
+        .block6__item {
+            transform: rotateY(180deg);
+        }
+    }
+
+    &:first-child {
         .block6__item {
             transform: rotateY(180deg);
         }
