@@ -6,20 +6,7 @@ $(document).ready(function () {
         loop: true,
         autoHeight: true,
         margin: 40,
-        // stagePadding: 50,
-        responsive : {
-            320 : {
-                items: 1
-            },
-
-            768 : {
-                items: 2
-            },
-
-            1280 : {
-                items: 3
-            }
-        }
+        items: 1
     });
 
     function Start() {

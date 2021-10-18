@@ -48,6 +48,14 @@
         background-position: center bottom;
         background-image: url("../media/section/block6.jpg");
     }
+
+    &_commits {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-color: #000;
+        background-position: center top;
+        background-image: url("../media/section/commits.jpg");
+    }
 }
 
 @media (max-width: 1280px) {
